@@ -1,0 +1,51 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-container {
+    background: white;
+    max-width: 480px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 24px;
+    color: #2179FF;
+}
+
+.property-details {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #303133;
+}
+
+.property-details h2 {
+    margin-top: 0;
+}
+
+.pay-btn {
+    background-color: #2179FF;
+    color: white;
+    padding: 14px 32px;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pay-btn:hover {
+    background-color: #1755B2;
+}

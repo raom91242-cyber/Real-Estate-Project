@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MRhome - Booking Cart</title>
+    <link rel="stylesheet" href="cart.css" />
+    <!-- Add in the <head> section -->
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+
+<body>
+    <div class="cart-container">
+        <h1>Your Booking Cart</h1>
+        <div id="property-details" class="property-details"></div>
+
+        <!-- Inside your pay button -->
+        <button id="payBtn" class="pay-btn"
+            data-stripe-publishable-key="pk_test_51SOzN1ANFgejiUxyKc11ERGurdZUtdiEnVjPuhUjPj94PaJkikDmtMvHEr02NDRjRNHDg0L2CHRvNOW1BuSiZTBJ008gC5AOIA">
+            Proceed to Payment
+        </button>
+
+    </div>
+
+
+    <script src="cart.js"></script>
+    <!-- <script src="express.js"></script> -->
+</body>
+
+</html>
