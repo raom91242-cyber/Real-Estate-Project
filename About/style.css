@@ -1,0 +1,155 @@
+/* ---------------- GLOBAL ---------------- */
+#background {
+    background: #929cbd
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f6f8fa;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------------- HEADER BACKGROUND ---------------- */
+#header1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 83px;
+    z-index: 4;
+}
+
+
+.header {
+    background: #4c5f9f;
+    /* Light header background color */
+    height: 50%;
+    padding: 5px 0;
+    border-bottom: 2px solid #4c5f9f;
+}
+
+/* ---------------- BACK BUTTON ---------------- */
+.back-btn {
+    background: #ffffff;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 2px solid #4c6fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+    color: #4c6fff;
+}
+
+.back-btn:hover {
+    background: #4c6fff;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* ---------------- ABOUT SECTION ---------------- */
+
+
+.about-section {
+    padding: 60px 0;
+    /* background: #6d81b6; */
+    /* Background color for About section */
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+.about-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    max-width: 650px;
+    margin: 0 auto 50px;
+}
+
+.about-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-left {
+    flex: 1;
+    min-width: 320px;
+}
+
+.about-left h2 {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.about-left p {
+    color: #444;
+    margin-top: 10px;
+    line-height: 1.7;
+}
+
+.about-list li {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.about-right {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------------- RESPONSIVE DESIGN ---------------- */
+
+/* For 1200px screens */
+@media (max-width: 1200px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* For tablets 720px */
+@media (max-width: 720px) {
+    .about-title {
+        font-size: 28px;
+    }
+
+    .about-subtitle {
+        font-size: 16px;
+    }
+
+    .about-image {
+        max-width: 350px;
+    }
+}
+
+/* For small mobile 480px */
+@media (max-width: 480px) {
+    .back-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* ---------------- FOOTER FIX ---------------- */
+footer {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
